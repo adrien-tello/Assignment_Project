@@ -8,4 +8,5 @@ void main() {
   wordLengths.entries
       .where((entry) => entry.value > 4)
       .forEach((entry) => print("${entry.key}: ${entry.value}"));
+    print('DONE...');
 }
