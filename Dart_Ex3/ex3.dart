@@ -26,4 +26,5 @@ void main() {
   print("People starting with 'A' or 'B':");
   filtered.forEach((p) => print("  ${p.name}: ${p.age}"));
   print("\nAverage age: ${averageAge.toStringAsFixed(1)}");
+  print("DONE...");
 }
